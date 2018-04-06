@@ -8,36 +8,80 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
+  display: block;
+  text-align: center; 
+
 
 }
-
+/* Your first exercise will be to make sure the text within this &lt;span&gt; is centered 
+        on the page. The id of this span is "exerciseOne". Text has a unique positioning system 
+        known as "text-align" we can set this to 'left', 'right', 'center', or 'justify'(stretches each 
+        line to fit the width of the container), but this only works for a block elements  
+        and &lt;span&gt; is initially an inline element. Set this span's display property to be 
+        a block element and center the text using text-align. */
 
 /* Exercise Two: Positioning a Header Bar*/
 
 /* Place code here */
+h1{ display: none;
 
+
+}
 
 
 /* Exercise Three: */
 
-/* Place code here */
 
+/* Place code here */
+#moveBoxContainer{
+  position: relative;
+}
+#targetContainer{
+  position: relative;
+}
+#exerciseThree{
+position: absolute;
+  top: 100px;
+  left: 200px;
+}
 
 
 /* Exercise Four: */
 
 /* Place code here */
 
+#exerciseFour{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+}
 
 
 /* Exercise Five */
+#exerciseFive{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 
+
+
+}
 /* Place code here */
 
 
 
 /* Exercise Six */
-
+#exerciseFive{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
 #exerciseSeven {
   display: flex;
 }
